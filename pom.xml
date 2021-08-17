@@ -6,7 +6,11 @@
 	<artifactId>mavenforjenkins</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<dependencies>
+	<properties>
+		<maven.compiler.target>1.6</maven.compiler.target>
+		<maven.compiler.source>1.6</maven.compiler.source>
+	</properties>
+		<dependencies>
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
